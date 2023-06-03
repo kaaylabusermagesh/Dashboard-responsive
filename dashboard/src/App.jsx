@@ -7,9 +7,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [toggle, setToggle] = useState(false);
-  const Toggle = () => {
+  function Toggle() {
     setToggle(!toggle);
-  };
+  }
 
   useEffect(() => {
     const handleSizeNav = () => {

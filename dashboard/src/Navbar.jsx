@@ -15,7 +15,7 @@ function Navbar({ Toggle }) {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target=""
+          data-bs-target="collapse"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
